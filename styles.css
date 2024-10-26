@@ -179,3 +179,25 @@ footer{
     margin-left: 46px;
     align-items: center;
 }
+@media (max-width:600px)
+{
+    nav{
+        display:inline-block;
+    }
+    .logo
+    {
+        width: 60px;
+    }
+    .images
+    {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center; 
+    }
+    footer
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
